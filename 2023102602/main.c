@@ -16,7 +16,4 @@ int main()
     LerPessoa(pessoa);
 
     return 0;
-
-
-    return 0;
 }
