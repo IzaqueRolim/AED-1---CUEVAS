@@ -26,3 +26,7 @@ int AtribuiData(Data *data, char dia[3], char mes[3], char ano[5]) {
     strcpy(data->ano, ano);
     return 1;
 }
+
+void DestruirData(Data *data){
+    free(data);
+}

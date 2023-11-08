@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include <Pessoa.h>
+
 struct pessoa {
     char nome[51]; 
     Data DataNascimento;
@@ -39,4 +41,10 @@ void LerPessoa(Pessoa *pessoa) {
     printf("Nome: %s\n", pessoa->nome);
     printf("Data de Nascimento: %s/%s/%s\n", pessoa->DataNascimento.dia, pessoa->DataNascimento.mes, pessoa->DataNascimento.ano);
     printf("CPF: %s\n", pessoa->cpf);
+}
+void DestruirPessa(Pessoa *pessoa){
+    if(pessoa == NULL){
+        return;
+    }
+    free(pessoa);
 }
