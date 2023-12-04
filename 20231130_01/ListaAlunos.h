@@ -2,7 +2,7 @@
 #define LISTAALUNOS_H_INCLUDED
 
 struct listaAlunos {
-    int elementos[MAX_ALUNOS];
+    int elementos[100];
     int quantidade;
 };
 
