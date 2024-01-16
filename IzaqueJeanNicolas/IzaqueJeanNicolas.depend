@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1704382057 source:c:\users\izaqu\onedrive\documentos\github\aed-1---cuevas\izaquejeannicolas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
